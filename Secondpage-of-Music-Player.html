@@ -1,0 +1,863 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>BACKEND OF MUSIC PLAYER</title>
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+	<link rel = "stylesheet" type = "text/css" href = "Music-Player.css">
+</head>
+<body>
+
+	<!-- 	Container which contains nav and main content  -->
+	<div id = "container">
+
+		<!--  Nav  -->
+		<nav id = "nav">
+			<div id = "div1">
+				<img id = "abc" src = "image/23.jpg">
+				<span class = "ab color">
+					<p>Ninja</p>
+					<b>Studio</b>
+				</span>
+				<span class = "ab color">
+					<b>Favourites</b>
+				</span>
+
+				<!-- 	This is a hamberg icon which works when size of screen is max: 600px  	-->
+
+				<div style="margin:auto 0px;" id="hamberg-icon1">
+			       <i class="fas fa-bars color-icon"></i>
+
+			        <!--        aside  sec    -->
+			            
+			            <aside class= "inner-div2" id="aside600px">
+			                <div class = "containerd">
+			                    <h1 style = "color:black">Queue</h1>
+			                    <div>
+			                        <h2 class= "display" style = "color:black;">Queue</h2>
+			                        <div class = "dropdown display">
+			                            <i class="fas fa-chevron-down drpbtn"  style = "color:black;"></i>
+			                            <div class ="drpdown-content color">
+			                                <p class ="dropdown-border">Playlists</p>
+			                                <p>Favourite Songs</p>
+			                            </div>
+			                        </div>
+			                    </div>
+			                </div>
+
+			                <!--        aside  sec  which contains 22 similar containers  -->
+			                <div class = "containerb">
+			                    <!-- 1. -->
+			                    <div class ="containere">
+			                        <div class = "container7">
+			                            <p class = " margin color">01</p>
+			                            <img src = "image/18.jpg" id = "queueimg" class = "left-margin">
+			                            <div class = "left-margin color">
+			                                <p><b>Mirage</b></p>
+			                                <p>Else</p>
+			                            </div>
+			                        </div>
+			                        <i class="far fa-heart color-icon margin"></i>
+			                    </div>
+
+			                    <!-- 2. -->
+			                    <div class ="containere">
+			                        <div class = "container7">
+			                            <p class = "margin color">02</p>
+			                            <img src = "image/17.jpg" id = "queueimg" class = "left-margin">
+			                            <div class = "left-margin color">
+			                                <p><b>Worry Bout Us</b></p>
+			                                <p>Rosie Lowe</p>
+			                            </div>
+			                        </div>
+			                        <i class="far fa-heart color-icon margin"></i>
+			                    </div>
+
+			                    <!-- 3. -->
+			                    <div class ="containere">
+			                        <div class = "container7">
+			                            <p class = " margin color">03</p>
+			                            <img src = "image/16.jpg" id = "queueimg" class = "left-margin">
+			                            <div class = "left-margin color">
+			                                <p><b>New Skin</b></p>
+			                                <p>Flume</p>
+			                            </div>
+			                        </div>
+			                        <i class="far fa-heart color-icon margin"></i>
+			                    </div>
+
+			                    <!-- 4. -->
+			                    <div class ="containere">
+			                        <div class = "container7">
+			                            <p class = " margin color">04</p>
+			                            <img src = "image/21.jpg" id = "queueimg" class = "left-margin">
+			                            <div class = "left-margin color">
+			                                <p><b>Worry Bout Us</b></p>
+			                                <p>Else</p>
+			                            </div>
+			                        </div>
+			                        <i class="far fa-heart color-icon margin"></i>
+			                    </div>
+
+			                    <!-- 4. -->
+			                    <div class ="containere">
+			                        <div class = "container7">
+			                            <p class = "margin color">05</p>
+			                            <img src = "image/18.jpg" id = "queueimg" class = "left-margin">
+			                            <div class = "left-margin color">
+			                                <p><b>Mirage</b></p>
+			                                <p>Else</p>
+			                            </div>
+			                        </div>
+			                        <i class="far fa-heart color-icon margin"></i>
+			                    </div>
+
+			                    <!-- 5. -->
+			                    <div class ="containere">
+			                        <div class = "container7">
+			                            <p class = "margin color">06</p>
+			                            <img src = "image/17.jpg" id = "queueimg" class = "left-margin">
+			                            <div class = "left-margin color">
+			                                <p><b>Worry Bout Us</b></p>
+			                                <p>Rosie Lowe</p>
+			                            </div>
+			                        </div>
+			                        <i class="far fa-heart color-icon margin"></i>
+			                    </div>
+
+			                    <!-- 6. -->
+			                    <div class ="containere">
+			                        <div class = "container7">
+			                            <p class = " margin color">07</p>
+			                            <img src = "image/16.jpg" id = "queueimg" class = "left-margin">
+			                            <div class = "left-margin color">
+			                                <p><b>New Skin</b></p>
+			                                <p>Flume</p>
+			                            </div>
+			                        </div>
+			                        <i class="far fa-heart color-icon margin"></i>
+			                    </div>
+
+			                    <!-- 7. -->
+			                    <div class ="containere">
+			                        <div class = "container7">
+			                            <p class = " margin color">08</p>
+			                            <img src = "image/21.jpg" id = "queueimg" class = "left-margin">
+			                            <div class = "left-margin color">
+			                                <p><b>Worry Bout Us</b></p>
+			                                <p>Else</p>
+			                            </div>
+			                        </div>
+			                        <i class="far fa-heart color-icon margin"></i>
+			                    </div>
+
+			                    <!-- 8. -->
+			                    <div class ="containere">
+			                        <div class = "container7">
+			                            <p class = " margin color">09</p>
+			                            <img src = "image/18.jpg" id = "queueimg" class = "left-margin">
+			                            <div class = "left-margin color">
+			                                <p><b>Mirage</b></p>
+			                                <p>Else</p>
+			                            </div>
+			                        </div>
+			                        <i class="far fa-heart color-icon margin"></i>
+			                    </div>
+
+			                    <!-- 9. -->
+			                    <div class ="containere">
+			                        <div class = "container7">
+			                            <p class = " margin color">10</p>
+			                            <img src = "image/17.jpg" id = "queueimg" class = "left-margin">
+			                            <div class = "left-margin color">
+			                                <p><b>Worry Bout Us</b></p>
+			                                <p>Rosie Lowe</p>
+			                            </div>
+			                        </div>
+			                        <i class="far fa-heart color-icon margin"></i>
+			                    </div>
+
+			                    <!-- 10. -->
+			                    <div class ="containere">
+			                        <div class = "container7">
+			                            <p class = " margin color">11</p>
+			                            <img src = "image/16.jpg" id = "queueimg" class = "left-margin">
+			                            <div class = "left-margin color">
+			                                <p><b>New Skin</b></p>
+			                                <p>Flume</p>
+			                            </div>
+			                        </div>
+			                        <i class="far fa-heart color-icon margin"></i>
+			                    </div>
+
+			                    <!-- 11. -->
+			                    <div class ="containere">
+			                        <div class = "container7">
+			                            <p class = " margin color">12</p>
+			                            <img src = "image/21.jpg" id = "queueimg" class = "left-margin">
+			                            <div class = "left-margin color">
+			                                <p><b>Worry Bout Us</b></p>
+			                                <p>Else</p>
+			                            </div>
+			                        </div>
+			                        <i class="far fa-heart color-icon margin"></i>
+			                    </div>
+
+			                    <!-- 12. -->
+			                    <div class ="containere">
+			                        <div class = "container7">
+			                            <p class = " margin color">13</p>
+			                            <img src = "image/18.jpg" id = "queueimg" class = "left-margin">
+			                            <div class = "left-margin color">
+			                                <p><b>Mirage</b></p>
+			                                <p>Else</p>
+			                            </div>
+			                        </div>
+			                        <i class="far fa-heart color-icon margin"></i>
+			                    </div>
+
+			                    <!-- 13. -->
+			                    <div class ="containere">
+			                        <div class = "container7">
+			                            <p class = " margin color">14</p>
+			                            <img src = "image/17.jpg" id = "queueimg" class = "left-margin">
+			                            <div class = "left-margin color">
+			                                <p><b>Worry Bout Us</b></p>
+			                                <p>Rosie Lowe</p>
+			                            </div>
+			                        </div>
+			                        <i class="far fa-heart color-icon margin"></i>
+			                    </div>
+
+			                    <!-- 14. -->
+			                    <div class ="containere">
+			                        <div class = "container7">
+			                            <p class = " margin color">15</p>
+			                            <img src = "image/16.jpg" id = "queueimg" class = "left-margin">
+			                            <div class = "left-margin color">
+			                                <p><b>New Skin</b></p>
+			                                <p>Flume</p>
+			                            </div>
+			                        </div>
+			                        <i class="far fa-heart color-icon margin"></i>
+			                    </div>
+
+			                    <!-- 15. -->
+			                    <div class ="containere">
+			                        <div class = "container7">
+			                            <p class = " margin color">16</p>
+			                            <img src = "image/21.jpg" id = "queueimg" class = "left-margin">
+			                            <div class = "left-margin color">
+			                                <p><b>Worry Bout Us</b></p>
+			                                <p>Else</p>
+			                            </div>
+			                        </div>
+			                        <i class="far fa-heart color-icon margin"></i>
+			                    </div>
+
+			                    <!-- 16. -->
+			                    <div class ="containere">
+			                        <div class = "container7">
+			                            <p class = " margin color">17</p>
+			                            <img src = "image/18.jpg" id = "queueimg" class = "left-margin">
+			                            <div class = "left-margin color">
+			                                <p><b>Mirage</b></p>
+			                                <p>Else</p>
+			                            </div>
+			                        </div>
+			                        <i class="far fa-heart color-icon margin"></i>
+			                    </div>
+
+			                    <!-- 17. -->
+			                    <div class ="containere">
+			                        <div class = "container7">
+			                            <p class = " margin color">18</p>
+			                            <img src = "image/17.jpg" id = "queueimg" class = "left-margin">
+			                            <div class = "left-margin color">
+			                                <p><b>Worry Bout Us</b></p>
+			                                <p>Rosie Lowe</p>
+			                            </div>
+			                        </div>
+			                        <i class="far fa-heart color-icon margin"></i>
+			                    </div>
+
+			                    <!-- 18. -->
+			                    <div class ="containere">
+			                        <div class = "container7">
+			                            <p class = " margin color">19</p>
+			                            <img src = "image/16.jpg" id = "queueimg" class = "left-margin">
+			                            <div class = "left-margin color">
+			                                <p><b>New Skin</b></p>
+			                                <p>Flume</p>
+			                            </div>
+			                        </div>
+			                        <i class="far fa-heart color-icon margin"></i>
+			                    </div>
+
+			                    <!-- 19. -->
+			                    <div class ="containere">
+			                        <div class = "container7">
+			                            <p class = " margin color">20</p>
+			                            <img src = "image/21.jpg" id = "queueimg" class = "left-margin">
+			                            <div class = "left-margin color">
+			                                <p><b>Worry Bout Us</b></p>
+			                                <p>Else</p>
+			                            </div>
+			                        </div>
+			                        <i class="far fa-heart color-icon margin"></i>
+			                    </div>
+			                    
+			                </div>
+			            </aside>
+			            <!-- end of aside sec -->
+			    </div>
+				
+			</div>
+			<div id = "div2">
+				<span id = "def">
+					<i class="fas fa-search color-icon"></i>
+					<input type = "text" placeholder="Search">
+					<i class="fas fa-microphone color-icon"></i>
+				</span>
+				<i class="fas fa-bell color-icon"></i>
+				<img src = "image/19.jpg">
+
+
+	<!-- 	This is a hamberg icon which works when size of screen is max: 1000px  	-->
+
+
+				<div style="margin:auto 0px;" id="hamberg-icon">
+					<i class="fas fa-bars color-icon"></i>
+
+					<!--    aside sec    -->
+
+					<aside class="inner-div2" id="aside1000px">
+						<div class="child">
+
+							<!-- similar artist -->
+							<div class = "containerg color">
+								<h1 style="color:black;">Similar Artists</h1>
+								<p>View All</p>
+							</div>
+
+							<div class ="containerh">
+								<div class = "container7">
+									<p class = "margin color">01</p>
+									<img src = "image/18.jpg" id = "artist-img" class = "left-margin">
+									<div class = "margin color">
+										<p><b>Mirage</b></p>
+										<p>Else</p>
+									</div>
+								</div>
+								<div style="text-align: right;" class= "color">
+									<b>...</b>
+									<p>4:44</p>
+								</div>
+							</div>
+
+							<div class ="containerh">
+								<div class = "container7">
+									<p class = "margin color">02</p>
+									<img src = "image/18.jpg" id = "artist-img" class = "left-margin">
+									<div class = "margin color">
+										<p><b>Mirage</b></p>
+										<p>Else</p>
+									</div>
+								</div>
+								<div style="text-align: right;" class= "color">
+									<b>...</b>
+									<p>4:44</p>
+								</div>
+							</div>
+
+							<div class ="containerh">
+								<div class = "container7">
+									<p class = "margin color">03</p>
+									<img src = "image/18.jpg" id = "artist-img" class = "left-margin">
+									<div class = "margin color">
+										<p><b>Mirage</b></p>
+										<p>Else</p>
+									</div>
+								</div>
+								<div style="text-align: right;" class= "color">
+									<b>...</b>
+									<p>4:44</p>
+								</div>
+							</div>
+						</div>
+
+						<!-- end of similar artist -->
+
+						<!-- recently played -->
+
+						<div class="child">
+							<div class = "containerg color">
+								<h1 style="color:black;">Recently Played</h1>
+								<p>View All</p>
+							</div>
+
+							<div class ="containere">
+								<div class = "container7">
+									<p class = " margin color">01</p>
+									<img src = "image/18.jpg" id = "queueimg" class = "left-margin">
+									<div class = "left-margin color">
+										<p><b>Mirage</b></p>
+										<p>Else</p>
+									</div>
+								</div>
+								<i class="far fa-heart color-icon margin"></i>
+							</div>
+
+							<div class ="containere">
+								<div class = "container7">
+									<p class = "margin margin color">02</p>
+									<img src = "image/17.jpg" id = "queueimg" class = "left-margin">
+									<div class = "left-margin color">
+										<p><b>Mirage</b></p>
+										<p>Else</p>
+									</div>
+								</div>
+								<i class="far fa-heart color-icon margin"></i>
+							</div>
+
+							<div class ="containere">
+								<div class = "container7">
+									<p class = "margin margin color">03</p>
+									<img src = "image/16.jpg" id = "queueimg" class = "left-margin">
+									<div class = "left-margin color">
+										<p><b>Mirage</b></p>
+										<p>Else</p>
+									</div>
+								</div>
+								<i class="far fa-heart color-icon margin"></i>
+							</div>
+
+							<div class ="containere">
+								<div class = "container7">
+									<p class = "margin margin color">04</p>
+									<img src = "image/21.jpg" id = "queueimg" class = "left-margin">
+									<div class = "left-margin color">
+										<p><b>Mirage</b></p>
+										<p>Else</p>
+									</div>
+								</div>
+								<i class="far fa-heart color-icon margin"></i>
+							</div>
+
+							<div class ="containere">
+								<div class = "container7">
+									<p class = "margin margin color">05</p>
+									<img src = "image/21.jpg" id = "queueimg" class = "left-margin">
+									<div class = "left-margin color">
+										<p><b>Mirage</b></p>
+										<p>Else</p>
+									</div>
+								</div>
+								<i class="far fa-heart color-icon margin"></i>
+							</div>
+						</div>
+						<!-- end of recenty played -->
+					
+					</aside>
+			<!-- end of aside sec -->
+
+				</div>
+			</div>
+		</nav>
+		<!-- end of nav sec  -->
+
+		<!-- outer div which contains main section and aside section  -->
+		<div class= "outer-div">
+
+			<!-- Main section which has 10 small and similar containers -->
+			<div class= "inner-div1" id="main">
+
+				<!-- 1. -->
+				<div class ="container11">
+					<img src= "image/24.jpg">
+
+					<div id ="container12" class= "color">
+						<div class="container11 margin left-margin">
+							<h1 class ="display">Cold Play</h1>
+							<p class ="display">851 Followers </p>
+						</div>
+						<p class="left-margin">British Band</p>
+						<p class="left-margin">Sanam Re is a 2016 Indian Hindi-language romantic drama film directed by Divya Khosla Kumar and produced by Bhushan Kumar, Krishan Kumar and co-produced by Ajay Kapoor.</p>
+						<br>
+						<br>
+						<div class ="container13 left-margin">
+							<div  id="small-container" class="display">
+								<p style="margin-top:2%;margin-left: 24%">Play All</p>
+							</div>
+							<p class="display" style="margin-top:1%;margin-left: 20%">Follow</p>
+						</div>
+						<p class="left-margin">247 Tracks|128 Albums</p>
+
+
+					</div>
+				</div>
+
+				<!-- 2. -->
+				<div class ="containerf">
+					<div class = "container8">
+						<div class = "container7">
+							<p class = " margin color">01</p>
+							<img src = "image/18.jpg"class = "left-margin queueimg">
+							<div class = "left-margin color">
+								<p><b>Mirage</b></p>
+								<p>Else</p>
+							</div>
+						</div>
+						<p class= "margin color">4:44</p>
+					</div>
+					<div class="container10">
+						<i class="far fa-heart color-icon margin"></i>
+						<i class="fas fa-plus color-icon margin"></i>
+					</div>
+				</div>
+
+				<!-- 3. -->
+				<div class ="containerf">
+					<div class = "container8">
+						<div class = "container7">
+							<p class = " margin color">02</p>
+							<img src = "image/17.jpg"class = "left-margin queueimg">
+							<div class = "left-margin color">
+								<p><b>Mirage</b></p>
+								<p>Else</p>
+							</div>
+						</div>
+						<p class= "margin color">4:44</p>
+					</div>
+					<div class="container10">
+						<i class="far fa-heart color-icon margin"></i>
+						<i class="fas fa-plus color-icon margin"></i>
+					</div>
+				</div>
+
+				<!-- 4. -->
+				<div class ="containerf">
+					<div class = "container8">
+						<div class = "container7">
+							<p class = " margin color">03</p>
+							<img src = "image/16.jpg"class = "left-margin queueimg">
+							<div class = "left-margin color">
+								<p><b>Mirage</b></p>
+								<p>Else</p>
+							</div>
+						</div>
+						<p class= "margin color">4:44</p>
+					</div>
+					<div class="container10">
+						<i class="far fa-heart color-icon margin"></i>
+						<i class="fas fa-plus color-icon margin"></i>
+					</div>
+				</div>
+
+				<!-- 5. -->
+				<div class ="containerf">
+					<div class = "container8">
+						<div class = "container7">
+							<p class = " margin color">04</p>
+							<img src = "image/21.jpg"class = "left-margin queueimg">
+							<div class = "left-margin color">
+								<p><b>Mirage</b></p>
+								<p>Else</p>
+							</div>
+						</div>
+						<p class= "margin color">4:44</p>
+					</div>
+					<div class="container10">
+						<i class="far fa-heart color-icon margin"></i>
+						<i class="fas fa-plus color-icon margin"></i>
+					</div>
+				</div>
+
+				<!-- 6. -->
+				<div class ="containerf">
+					<div class = "container8">
+						<div class = "container7">
+							<p class = " margin color">05</p>
+							<img src = "image/18.jpg"class = "left-margin queueimg">
+							<div class = "left-margin color">
+								<p><b>Mirage</b></p>
+								<p>Else</p>
+							</div>
+						</div>
+						<p class= "margin color">4:44</p>
+					</div>
+					<div class="container10">
+						<i class="far fa-heart color-icon margin"></i>
+						<i class="fas fa-plus color-icon margin"></i>
+					</div>
+				</div>
+
+				<!-- 7. -->
+				<div class ="containerf">
+					<div class = "container8">
+						<div class = "container7">
+							<p class = " margin color">06</p>
+							<img src = "image/17.jpg"class = "left-margin queueimg">
+							<div class = "left-margin color">
+								<p><b>Mirage</b></p>
+								<p>Else</p>
+							</div>
+						</div>
+						<p class= "margin color">4:44</p>
+					</div>
+					<div class="container10">
+						<i class="far fa-heart color-icon margin"></i>
+						<i class="fas fa-plus color-icon margin"></i>
+					</div>
+				</div>
+
+				<!-- 8. -->
+				<div class ="containerf">
+					<div class = "container8">
+						<div class = "container7">
+							<p class = " margin color">07</p>
+							<img src = "image/16.jpg"class = "left-margin queueimg">
+							<div class = "left-margin color">
+								<p><b>Mirage</b></p>
+								<p>Else</p>
+							</div>
+						</div>
+						<p class= "margin color">4:44</p>
+					</div>
+					<div class="container10">
+						<i class="far fa-heart color-icon margin"></i>
+						<i class="fas fa-plus color-icon margin"></i>
+					</div>
+				</div>
+
+				<!-- 9. -->
+				<div class ="containerf">
+					<div class = "container8">
+						<div class = "container7">
+							<p class = " margin color">08</p>
+							<img src = "image/21.jpg"class = "left-margin queueimg">
+							<div class = "left-margin color">
+								<p><b>Mirage</b></p>
+								<p>Else</p>
+							</div>
+						</div>
+						<p class= "margin color">4:44</p>
+					</div>
+					<div class="container10">
+						<i class="far fa-heart color-icon margin"></i>
+						<i class="fas fa-plus color-icon margin"></i>
+					</div>
+				</div>
+				
+				<!-- 10. -->
+				<div class ="containerf">
+					<div class = "container8">
+						<div class = "container7">
+							<p class = " margin color">09</p>
+							<img src = "image/18.jpg"class = "left-margin queueimg">
+							<div class = "left-margin color">
+								<p><b>Mirage</b></p>
+								<p>Else</p>
+							</div>
+						</div>
+						<p class= "margin color">4:44</p>
+					</div>
+					<div class="container10">
+						<i class="far fa-heart color-icon margin"></i>
+						<i class="fas fa-plus color-icon margin"></i>
+					</div>
+				</div>
+
+			</div>
+			<!--   end of main sec    -->
+
+			<!-- aside sec  -->
+
+			<aside class="inner-div2" id="aside">
+				<div class="child">
+
+					<!-- similar artist -->
+					<div class = "containerg color">
+						<h1>Similar Artists</h1>
+						<p>View All</p>
+					</div>
+
+					<div class ="containerh">
+						<div class = "container7">
+							<p class = "margin color">01</p>
+							<img src = "image/18.jpg" id = "artist-img" class = "left-margin">
+							<div class = "margin color">
+								<p><b>Mirage</b></p>
+								<p>Else</p>
+							</div>
+						</div>
+						<div style="text-align: right;" class= "color">
+							<b>...</b>
+							<p>4:44</p>
+						</div>
+					</div>
+
+					<div class ="containerh">
+						<div class = "container7">
+							<p class = "margin color">02</p>
+							<img src = "image/18.jpg" id = "artist-img" class = "left-margin">
+							<div class = "margin color">
+								<p><b>Mirage</b></p>
+								<p>Else</p>
+							</div>
+						</div>
+						<div style="text-align: right;" class= "color">
+							<b>...</b>
+							<p>4:44</p>
+						</div>
+					</div>
+
+					<div class ="containerh">
+						<div class = "container7">
+							<p class = "margin color">03</p>
+							<img src = "image/18.jpg" id = "artist-img" class = "left-margin">
+							<div class = "margin color">
+								<p><b>Mirage</b></p>
+								<p>Else</p>
+							</div>
+						</div>
+						<div style="text-align: right;" class= "color">
+							<b>...</b>
+							<p>4:44</p>
+						</div>
+					</div>
+				</div>
+				<!-- end of similar artist -->
+
+				<!-- recently played -->
+				<div class="child">
+					<div class = "containerg color">
+						<h1>Recently Played</h1>
+						<p>View All</p>
+					</div>
+
+					<div class ="containere">
+						<div class = "container7">
+							<p class = " margin color">01</p>
+							<img src = "image/18.jpg" id = "queueimg" class = "left-margin">
+							<div class = "left-margin color">
+								<p><b>Mirage</b></p>
+								<p>Else</p>
+							</div>
+						</div>
+						<i class="far fa-heart color-icon margin"></i>
+					</div>
+
+					<div class ="containere">
+						<div class = "container7">
+							<p class = "margin margin color">02</p>
+							<img src = "image/17.jpg" id = "queueimg" class = "left-margin">
+							<div class = "left-margin color">
+								<p><b>Mirage</b></p>
+								<p>Else</p>
+							</div>
+						</div>
+						<i class="far fa-heart color-icon margin"></i>
+					</div>
+
+					<div class ="containere">
+						<div class = "container7">
+							<p class = "margin margin color">03</p>
+							<img src = "image/16.jpg" id = "queueimg" class = "left-margin">
+							<div class = "left-margin color">
+								<p><b>Mirage</b></p>
+								<p>Else</p>
+							</div>
+						</div>
+						<i class="far fa-heart color-icon margin"></i>
+					</div>
+
+					<div class ="containere">
+						<div class = "container7">
+							<p class = "margin margin color">04</p>
+							<img src = "image/21.jpg" id = "queueimg" class = "left-margin">
+							<div class = "left-margin color">
+								<p><b>Mirage</b></p>
+								<p>Else</p>
+							</div>
+						</div>
+						<i class="far fa-heart color-icon margin"></i>
+					</div>
+
+					<div class ="containere">
+						<div class = "container7">
+							<p class = "margin margin color">05</p>
+							<img src = "image/21.jpg" id = "queueimg" class = "left-margin">
+							<div class = "left-margin color">
+								<p><b>Mirage</b></p>
+								<p>Else</p>
+							</div>
+						</div>
+						<i class="far fa-heart color-icon margin"></i>
+					</div>
+				</div>
+				<!-- end of recenty played -->
+			
+			</aside>
+			<!-- end of aside sec -->
+
+		</div>
+		
+		<!-- 	end of outer div sec   -->
+
+		<!-- 		music-box has 3 small containers	 -->
+
+
+			<div id="music-box">
+
+				<!-- 1. -->
+				<div class="music-container1">
+					<img src="image/16.jpg">
+					<span style="margin: auto 0px">
+						<p style="color:black;">Imagine by john</p>
+						<p style="color:black;">John Lennon</p>
+					</span>
+					<i class="far fa-heart" style="margin: auto 0px;color:black;"></i>
+					<i class="fas fa-ban " style="margin: auto 0px;color:black;"></i>
+				</div>
+
+				<!-- 2. -->
+				<div class="music-container2">
+					<div id="small-container1">
+						<i class="fas fa-random"></i>
+						<i class="fas fa-step-backward"></i>
+						<i class="far fa-pause-circle"></i>
+						<i class="fas fa-step-forward"></i>
+						<i class="fas fa-sync"></i>
+					</div>
+					<div id="small-container2">
+						<p>1:44</p>
+						<div id="border1">
+						</div>
+						<div id="border2">
+						</div>
+						<div id="circle1">
+						</div>
+						<p>4:44</p>
+					</div>
+				</div>
+
+				<!-- 3. -->
+				<div class="music-container3">
+					<i class="fas fa-indent"></i>
+					<i class="fas fa-desktop"></i>
+					<i class="fas fa-volume-up"></i>
+					<div id="border3">
+					</div>
+					<div id="border4">
+					</div>
+					<div id="circle2">
+					</div>
+					<i class="fas fa-expand"></i>
+				</div>
+			</div>
+
+			<!-- end of music-box sec -->
+
+	</div>
+</body>
+</html>

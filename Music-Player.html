@@ -1,0 +1,1347 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>MUSIC PLAYER</title>
+	<meta name ="viewport" content="width=device-width,initial-scale=1,minimum-scale=1">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+	<link rel = "stylesheet" type = "text/css" href = "Music-Player.css">
+</head>
+<body>
+
+	<!-- 	Container which contains nav and main content  -->
+
+	<div id = "container">
+
+		<!--  Nav  -->
+
+		<nav id = "nav">
+			<div id = "div1">
+				<img id = "abc" src = "image/23.jpg">
+				<span class = "ab color">
+					<p>Ninja</p>
+					<b>Studio</b>
+				</span>
+				<span class = "ab color">
+					<b>Favourites</b>
+				</span>
+
+
+	<!-- 	This is a hamberg icon which works when size of screen is max: 600px  	-->
+
+				<div style="margin:auto 0px;" id="hamberg-icon1">
+			       <i class="fas fa-bars color-icon"style="font-size: 1.7rem;"></i>
+
+			        <!--        aside  sec    -->
+			            
+			            <aside class= "inner-div2" id="aside600px">
+			                <div class = "containerd">
+			                    <h1 style = "color:black">Queue</h1>
+			                    <div>
+			                        <h2 class= "display" style = "color:black;">Queue</h2>
+			                        <div class = "dropdown display">
+			                            <i class="fas fa-chevron-down drpbtn"  style = "color:black;"></i>
+			                            <div class ="drpdown-content color">
+			                                <p class ="dropdown-border">Playlists</p>
+			                                <p>Favourite Songs</p>
+			                            </div>
+			                        </div>
+			                    </div>
+			                </div>
+
+			                <!--        aside  sec  which contains 22 similar containers  -->
+			                <div class = "containerb">
+			                    <!-- 1. -->
+			                    <div class ="containere">
+			                        <div class = "container7">
+			                            <p class = " margin color">01</p>
+			                            <img src = "image/18.jpg" id = "queueimg" class = "left-margin">
+			                            <div class = "left-margin color">
+			                                <p><b>Mirage</b></p>
+			                                <p>Else</p>
+			                            </div>
+			                        </div>
+			                        <i class="far fa-heart color-icon margin"></i>
+			                    </div>
+
+			                    <!-- 2. -->
+			                    <div class ="containere">
+			                        <div class = "container7">
+			                            <p class = "margin color">02</p>
+			                            <img src = "image/17.jpg" id = "queueimg" class = "left-margin">
+			                            <div class = "left-margin color">
+			                                <p><b>Worry Bout Us</b></p>
+			                                <p>Rosie Lowe</p>
+			                            </div>
+			                        </div>
+			                        <i class="far fa-heart color-icon margin"></i>
+			                    </div>
+
+			                    <!-- 3. -->
+			                    <div class ="containere">
+			                        <div class = "container7">
+			                            <p class = " margin color">03</p>
+			                            <img src = "image/16.jpg" id = "queueimg" class = "left-margin">
+			                            <div class = "left-margin color">
+			                                <p><b>New Skin</b></p>
+			                                <p>Flume</p>
+			                            </div>
+			                        </div>
+			                        <i class="far fa-heart color-icon margin"></i>
+			                    </div>
+
+			                    <!-- 4. -->
+			                    <div class ="containere">
+			                        <div class = "container7">
+			                            <p class = " margin color">04</p>
+			                            <img src = "image/21.jpg" id = "queueimg" class = "left-margin">
+			                            <div class = "left-margin color">
+			                                <p><b>Worry Bout Us</b></p>
+			                                <p>Else</p>
+			                            </div>
+			                        </div>
+			                        <i class="far fa-heart color-icon margin"></i>
+			                    </div>
+
+			                    <!-- 4. -->
+			                    <div class ="containere">
+			                        <div class = "container7">
+			                            <p class = "margin color">05</p>
+			                            <img src = "image/18.jpg" id = "queueimg" class = "left-margin">
+			                            <div class = "left-margin color">
+			                                <p><b>Mirage</b></p>
+			                                <p>Else</p>
+			                            </div>
+			                        </div>
+			                        <i class="far fa-heart color-icon margin"></i>
+			                    </div>
+
+			                    <!-- 5. -->
+			                    <div class ="containere">
+			                        <div class = "container7">
+			                            <p class = "margin color">06</p>
+			                            <img src = "image/17.jpg" id = "queueimg" class = "left-margin">
+			                            <div class = "left-margin color">
+			                                <p><b>Worry Bout Us</b></p>
+			                                <p>Rosie Lowe</p>
+			                            </div>
+			                        </div>
+			                        <i class="far fa-heart color-icon margin"></i>
+			                    </div>
+
+			                    <!-- 6. -->
+			                    <div class ="containere">
+			                        <div class = "container7">
+			                            <p class = " margin color">07</p>
+			                            <img src = "image/16.jpg" id = "queueimg" class = "left-margin">
+			                            <div class = "left-margin color">
+			                                <p><b>New Skin</b></p>
+			                                <p>Flume</p>
+			                            </div>
+			                        </div>
+			                        <i class="far fa-heart color-icon margin"></i>
+			                    </div>
+
+			                    <!-- 7. -->
+			                    <div class ="containere">
+			                        <div class = "container7">
+			                            <p class = " margin color">08</p>
+			                            <img src = "image/21.jpg" id = "queueimg" class = "left-margin">
+			                            <div class = "left-margin color">
+			                                <p><b>Worry Bout Us</b></p>
+			                                <p>Else</p>
+			                            </div>
+			                        </div>
+			                        <i class="far fa-heart color-icon margin"></i>
+			                    </div>
+
+			                    <!-- 8. -->
+			                    <div class ="containere">
+			                        <div class = "container7">
+			                            <p class = " margin color">09</p>
+			                            <img src = "image/18.jpg" id = "queueimg" class = "left-margin">
+			                            <div class = "left-margin color">
+			                                <p><b>Mirage</b></p>
+			                                <p>Else</p>
+			                            </div>
+			                        </div>
+			                        <i class="far fa-heart color-icon margin"></i>
+			                    </div>
+
+			                    <!-- 9. -->
+			                    <div class ="containere">
+			                        <div class = "container7">
+			                            <p class = " margin color">10</p>
+			                            <img src = "image/17.jpg" id = "queueimg" class = "left-margin">
+			                            <div class = "left-margin color">
+			                                <p><b>Worry Bout Us</b></p>
+			                                <p>Rosie Lowe</p>
+			                            </div>
+			                        </div>
+			                        <i class="far fa-heart color-icon margin"></i>
+			                    </div>
+
+			                    <!-- 10. -->
+			                    <div class ="containere">
+			                        <div class = "container7">
+			                            <p class = " margin color">11</p>
+			                            <img src = "image/16.jpg" id = "queueimg" class = "left-margin">
+			                            <div class = "left-margin color">
+			                                <p><b>New Skin</b></p>
+			                                <p>Flume</p>
+			                            </div>
+			                        </div>
+			                        <i class="far fa-heart color-icon margin"></i>
+			                    </div>
+
+			                    <!-- 11. -->
+			                    <div class ="containere">
+			                        <div class = "container7">
+			                            <p class = " margin color">12</p>
+			                            <img src = "image/21.jpg" id = "queueimg" class = "left-margin">
+			                            <div class = "left-margin color">
+			                                <p><b>Worry Bout Us</b></p>
+			                                <p>Else</p>
+			                            </div>
+			                        </div>
+			                        <i class="far fa-heart color-icon margin"></i>
+			                    </div>
+
+			                    <!-- 12. -->
+			                    <div class ="containere">
+			                        <div class = "container7">
+			                            <p class = " margin color">13</p>
+			                            <img src = "image/18.jpg" id = "queueimg" class = "left-margin">
+			                            <div class = "left-margin color">
+			                                <p><b>Mirage</b></p>
+			                                <p>Else</p>
+			                            </div>
+			                        </div>
+			                        <i class="far fa-heart color-icon margin"></i>
+			                    </div>
+
+			                    <!-- 13. -->
+			                    <div class ="containere">
+			                        <div class = "container7">
+			                            <p class = " margin color">14</p>
+			                            <img src = "image/17.jpg" id = "queueimg" class = "left-margin">
+			                            <div class = "left-margin color">
+			                                <p><b>Worry Bout Us</b></p>
+			                                <p>Rosie Lowe</p>
+			                            </div>
+			                        </div>
+			                        <i class="far fa-heart color-icon margin"></i>
+			                    </div>
+
+			                    <!-- 14. -->
+			                    <div class ="containere">
+			                        <div class = "container7">
+			                            <p class = " margin color">15</p>
+			                            <img src = "image/16.jpg" id = "queueimg" class = "left-margin">
+			                            <div class = "left-margin color">
+			                                <p><b>New Skin</b></p>
+			                                <p>Flume</p>
+			                            </div>
+			                        </div>
+			                        <i class="far fa-heart color-icon margin"></i>
+			                    </div>
+
+			                    <!-- 15. -->
+			                    <div class ="containere">
+			                        <div class = "container7">
+			                            <p class = " margin color">16</p>
+			                            <img src = "image/21.jpg" id = "queueimg" class = "left-margin">
+			                            <div class = "left-margin color">
+			                                <p><b>Worry Bout Us</b></p>
+			                                <p>Else</p>
+			                            </div>
+			                        </div>
+			                        <i class="far fa-heart color-icon margin"></i>
+			                    </div>
+
+			                    <!-- 16. -->
+			                    <div class ="containere">
+			                        <div class = "container7">
+			                            <p class = " margin color">17</p>
+			                            <img src = "image/18.jpg" id = "queueimg" class = "left-margin">
+			                            <div class = "left-margin color">
+			                                <p><b>Mirage</b></p>
+			                                <p>Else</p>
+			                            </div>
+			                        </div>
+			                        <i class="far fa-heart color-icon margin"></i>
+			                    </div>
+
+			                    <!-- 17. -->
+			                    <div class ="containere">
+			                        <div class = "container7">
+			                            <p class = " margin color">18</p>
+			                            <img src = "image/17.jpg" id = "queueimg" class = "left-margin">
+			                            <div class = "left-margin color">
+			                                <p><b>Worry Bout Us</b></p>
+			                                <p>Rosie Lowe</p>
+			                            </div>
+			                        </div>
+			                        <i class="far fa-heart color-icon margin"></i>
+			                    </div>
+
+			                    <!-- 18. -->
+			                    <div class ="containere">
+			                        <div class = "container7">
+			                            <p class = " margin color">19</p>
+			                            <img src = "image/16.jpg" id = "queueimg" class = "left-margin">
+			                            <div class = "left-margin color">
+			                                <p><b>New Skin</b></p>
+			                                <p>Flume</p>
+			                            </div>
+			                        </div>
+			                        <i class="far fa-heart color-icon margin"></i>
+			                    </div>
+
+			                    <!-- 19. -->
+			                    <div class ="containere">
+			                        <div class = "container7">
+			                            <p class = " margin color">20</p>
+			                            <img src = "image/21.jpg" id = "queueimg" class = "left-margin">
+			                            <div class = "left-margin color">
+			                                <p><b>Worry Bout Us</b></p>
+			                                <p>Else</p>
+			                            </div>
+			                        </div>
+			                        <i class="far fa-heart color-icon margin"></i>
+			                    </div>
+			                    
+			                </div>
+			            </aside>
+			            <!-- end of aside sec -->
+			    </div>
+
+			<!-- 	end of hamberg icon   -->
+
+			</div>
+			<div id = "div2">
+				<span id = "def">
+					<i class="fas fa-search color-icon"></i>
+					<input type = "text" placeholder="Search">
+					<i class="fas fa-microphone color-icon"></i>
+				</span>
+				<i class="fas fa-bell color-icon"></i>
+				<img src = "image/19.jpg" class="brightness">
+			
+
+	<!-- 	This is a hamberg icon which works when size of screen is max: 1000px  	-->
+
+			
+				<div style="margin:auto 0px;" id="hamberg-icon">
+			       <i class="fas fa-bars color-icon"></i>
+
+			        <!--        aside  sec    -->
+			            
+			            <aside class= "inner-div2" id="aside1000px">
+			                <div class = "containerd">
+			                    <h1 style = "color:black">Queue</h1>
+			                    <div>
+			                        <h2 class= "display" style = "color:black;">Queue</h2>
+			                        <div class = "dropdown display">
+			                            <i class="fas fa-chevron-down drpbtn"  style = "color:black;"></i>
+			                            <div class ="drpdown-content color">
+			                                <p class ="dropdown-border">Playlists</p>
+			                                <p>Favourite Songs</p>
+			                            </div>
+			                        </div>
+			                    </div>
+			                </div>
+
+			                <!--        aside  sec  which contains 22 similar containers  -->
+			                <div class = "containerb">
+			                    <!-- 1. -->
+			                    <div class ="containere">
+			                        <div class = "container7">
+			                            <p class = " margin color">01</p>
+			                            <img src = "image/18.jpg" id = "queueimg" class = "left-margin">
+			                            <div class = "left-margin color">
+			                                <p><b>Mirage</b></p>
+			                                <p>Else</p>
+			                            </div>
+			                        </div>
+			                        <i class="far fa-heart color-icon margin"></i>
+			                    </div>
+
+			                    <!-- 2. -->
+			                    <div class ="containere">
+			                        <div class = "container7">
+			                            <p class = "margin color">02</p>
+			                            <img src = "image/17.jpg" id = "queueimg" class = "left-margin">
+			                            <div class = "left-margin color">
+			                                <p><b>Worry Bout Us</b></p>
+			                                <p>Rosie Lowe</p>
+			                            </div>
+			                        </div>
+			                        <i class="far fa-heart color-icon margin"></i>
+			                    </div>
+
+			                    <!-- 3. -->
+			                    <div class ="containere">
+			                        <div class = "container7">
+			                            <p class = " margin color">03</p>
+			                            <img src = "image/16.jpg" id = "queueimg" class = "left-margin">
+			                            <div class = "left-margin color">
+			                                <p><b>New Skin</b></p>
+			                                <p>Flume</p>
+			                            </div>
+			                        </div>
+			                        <i class="far fa-heart color-icon margin"></i>
+			                    </div>
+
+			                    <!-- 4. -->
+			                    <div class ="containere">
+			                        <div class = "container7">
+			                            <p class = " margin color">04</p>
+			                            <img src = "image/21.jpg" id = "queueimg" class = "left-margin">
+			                            <div class = "left-margin color">
+			                                <p><b>Worry Bout Us</b></p>
+			                                <p>Else</p>
+			                            </div>
+			                        </div>
+			                        <i class="far fa-heart color-icon margin"></i>
+			                    </div>
+
+			                    <!-- 4. -->
+			                    <div class ="containere">
+			                        <div class = "container7">
+			                            <p class = "margin color">05</p>
+			                            <img src = "image/18.jpg" id = "queueimg" class = "left-margin">
+			                            <div class = "left-margin color">
+			                                <p><b>Mirage</b></p>
+			                                <p>Else</p>
+			                            </div>
+			                        </div>
+			                        <i class="far fa-heart color-icon margin"></i>
+			                    </div>
+
+			                    <!-- 5. -->
+			                    <div class ="containere">
+			                        <div class = "container7">
+			                            <p class = "margin color">06</p>
+			                            <img src = "image/17.jpg" id = "queueimg" class = "left-margin">
+			                            <div class = "left-margin color">
+			                                <p><b>Worry Bout Us</b></p>
+			                                <p>Rosie Lowe</p>
+			                            </div>
+			                        </div>
+			                        <i class="far fa-heart color-icon margin"></i>
+			                    </div>
+
+			                    <!-- 6. -->
+			                    <div class ="containere">
+			                        <div class = "container7">
+			                            <p class = " margin color">07</p>
+			                            <img src = "image/16.jpg" id = "queueimg" class = "left-margin">
+			                            <div class = "left-margin color">
+			                                <p><b>New Skin</b></p>
+			                                <p>Flume</p>
+			                            </div>
+			                        </div>
+			                        <i class="far fa-heart color-icon margin"></i>
+			                    </div>
+
+			                    <!-- 7. -->
+			                    <div class ="containere">
+			                        <div class = "container7">
+			                            <p class = " margin color">08</p>
+			                            <img src = "image/21.jpg" id = "queueimg" class = "left-margin">
+			                            <div class = "left-margin color">
+			                                <p><b>Worry Bout Us</b></p>
+			                                <p>Else</p>
+			                            </div>
+			                        </div>
+			                        <i class="far fa-heart color-icon margin"></i>
+			                    </div>
+
+			                    <!-- 8. -->
+			                    <div class ="containere">
+			                        <div class = "container7">
+			                            <p class = " margin color">09</p>
+			                            <img src = "image/18.jpg" id = "queueimg" class = "left-margin">
+			                            <div class = "left-margin color">
+			                                <p><b>Mirage</b></p>
+			                                <p>Else</p>
+			                            </div>
+			                        </div>
+			                        <i class="far fa-heart color-icon margin"></i>
+			                    </div>
+
+			                    <!-- 9. -->
+			                    <div class ="containere">
+			                        <div class = "container7">
+			                            <p class = " margin color">10</p>
+			                            <img src = "image/17.jpg" id = "queueimg" class = "left-margin">
+			                            <div class = "left-margin color">
+			                                <p><b>Worry Bout Us</b></p>
+			                                <p>Rosie Lowe</p>
+			                            </div>
+			                        </div>
+			                        <i class="far fa-heart color-icon margin"></i>
+			                    </div>
+
+			                    <!-- 10. -->
+			                    <div class ="containere">
+			                        <div class = "container7">
+			                            <p class = " margin color">11</p>
+			                            <img src = "image/16.jpg" id = "queueimg" class = "left-margin">
+			                            <div class = "left-margin color">
+			                                <p><b>New Skin</b></p>
+			                                <p>Flume</p>
+			                            </div>
+			                        </div>
+			                        <i class="far fa-heart color-icon margin"></i>
+			                    </div>
+
+			                    <!-- 11. -->
+			                    <div class ="containere">
+			                        <div class = "container7">
+			                            <p class = " margin color">12</p>
+			                            <img src = "image/21.jpg" id = "queueimg" class = "left-margin">
+			                            <div class = "left-margin color">
+			                                <p><b>Worry Bout Us</b></p>
+			                                <p>Else</p>
+			                            </div>
+			                        </div>
+			                        <i class="far fa-heart color-icon margin"></i>
+			                    </div>
+
+			                    <!-- 12. -->
+			                    <div class ="containere">
+			                        <div class = "container7">
+			                            <p class = " margin color">13</p>
+			                            <img src = "image/18.jpg" id = "queueimg" class = "left-margin">
+			                            <div class = "left-margin color">
+			                                <p><b>Mirage</b></p>
+			                                <p>Else</p>
+			                            </div>
+			                        </div>
+			                        <i class="far fa-heart color-icon margin"></i>
+			                    </div>
+
+			                    <!-- 13. -->
+			                    <div class ="containere">
+			                        <div class = "container7">
+			                            <p class = " margin color">14</p>
+			                            <img src = "image/17.jpg" id = "queueimg" class = "left-margin">
+			                            <div class = "left-margin color">
+			                                <p><b>Worry Bout Us</b></p>
+			                                <p>Rosie Lowe</p>
+			                            </div>
+			                        </div>
+			                        <i class="far fa-heart color-icon margin"></i>
+			                    </div>
+
+			                    <!-- 14. -->
+			                    <div class ="containere">
+			                        <div class = "container7">
+			                            <p class = " margin color">15</p>
+			                            <img src = "image/16.jpg" id = "queueimg" class = "left-margin">
+			                            <div class = "left-margin color">
+			                                <p><b>New Skin</b></p>
+			                                <p>Flume</p>
+			                            </div>
+			                        </div>
+			                        <i class="far fa-heart color-icon margin"></i>
+			                    </div>
+
+			                    <!-- 15. -->
+			                    <div class ="containere">
+			                        <div class = "container7">
+			                            <p class = " margin color">16</p>
+			                            <img src = "image/21.jpg" id = "queueimg" class = "left-margin">
+			                            <div class = "left-margin color">
+			                                <p><b>Worry Bout Us</b></p>
+			                                <p>Else</p>
+			                            </div>
+			                        </div>
+			                        <i class="far fa-heart color-icon margin"></i>
+			                    </div>
+
+			                    <!-- 16. -->
+			                    <div class ="containere">
+			                        <div class = "container7">
+			                            <p class = " margin color">17</p>
+			                            <img src = "image/18.jpg" id = "queueimg" class = "left-margin">
+			                            <div class = "left-margin color">
+			                                <p><b>Mirage</b></p>
+			                                <p>Else</p>
+			                            </div>
+			                        </div>
+			                        <i class="far fa-heart color-icon margin"></i>
+			                    </div>
+
+			                    <!-- 17. -->
+			                    <div class ="containere">
+			                        <div class = "container7">
+			                            <p class = " margin color">18</p>
+			                            <img src = "image/17.jpg" id = "queueimg" class = "left-margin">
+			                            <div class = "left-margin color">
+			                                <p><b>Worry Bout Us</b></p>
+			                                <p>Rosie Lowe</p>
+			                            </div>
+			                        </div>
+			                        <i class="far fa-heart color-icon margin"></i>
+			                    </div>
+
+			                    <!-- 18. -->
+			                    <div class ="containere">
+			                        <div class = "container7">
+			                            <p class = " margin color">19</p>
+			                            <img src = "image/16.jpg" id = "queueimg" class = "left-margin">
+			                            <div class = "left-margin color">
+			                                <p><b>New Skin</b></p>
+			                                <p>Flume</p>
+			                            </div>
+			                        </div>
+			                        <i class="far fa-heart color-icon margin"></i>
+			                    </div>
+
+			                    <!-- 19. -->
+			                    <div class ="containere">
+			                        <div class = "container7">
+			                            <p class = " margin color">20</p>
+			                            <img src = "image/21.jpg" id = "queueimg" class = "left-margin">
+			                            <div class = "left-margin color">
+			                                <p><b>Worry Bout Us</b></p>
+			                                <p>Else</p>
+			                            </div>
+			                        </div>
+			                        <i class="far fa-heart color-icon margin"></i>
+			                    </div>
+			                    
+			                </div>
+			            </aside>
+			            <!-- end of aside sec -->
+			    </div>
+
+			<!-- 	end of hamberg icon   -->
+
+		
+		</nav>
+		<!-- end of nav sec  -->
+
+
+		<!-- 	outer div which contains main section and aside section    -->
+		<div class = "outer-div">
+
+			<!-- Main section   -->
+
+			<main class = "inner-div1" id="main">
+				<div class = "containera hover brightness">
+					<img src = "image/20.jpg">
+					<img src = "image/24.jpg">
+					<img src = "image/27.jpg">
+				</div> 
+
+				<!-- 	latest release in main section has 4 small similar containers  -->
+				<!-- 1. -->
+
+				<div class = "containerb">
+					<div>
+						<h3 class = "color">Latest Release</h3>
+					</div>
+					<div class = "container2">
+
+						<div class="container14">
+							<div class="container15 hover-play-release">
+								<img src = "image/21.jpg" class= "brightness">
+								<a href="#footer">
+									<i class="fas fa-play size-color hover-play-icon"></i>
+								</a>	
+							</div>
+							<span class = "ab color left-margin">
+								<p><b>Onism</b></p>
+								<p>Aug&nbsp;11,2017</p>
+							</span>
+
+ 							<div class = "dropdown bc color"  style ="text-align:right;" >
+						        <b id = "abc">...</b>
+						        <div class = "dropdown-content">
+						            <div class="dropdown-border">
+						                <i class="fas fa-play"></i>
+						                <p class = "display">Play Now</p>
+						            </div>
+						            <div class="dropdown-border">
+						                <i class="fas fa-plus"></i>
+						                <p class = "display">Add To Queue</p>
+						            </div>
+						            <div class="dropdown-border">
+							            <i class="fas fa-heart"></i>
+						                <p class="display">Add To Favourites</p>
+						            </div>
+						            <div class="dropdown-border">
+						                <i class="fas fa-exclamation-circle"></i>
+						                <p class="display">Get Info</p>
+						            </div>
+						        </div>
+						        <p>4:44</p>
+						    </div>  
+						</div>
+
+						<!-- 2. -->
+
+						<div class="container14">
+							<div class="container15 hover-play-release">
+								<img src = "image/21.jpg" class= "brightness">
+								<a href ="#footer">
+									<i class="fas fa-play size-color hover-play-icon"></i>
+								</a>
+							</div>
+							<span class = "ab color left-margin">
+								<p><b>Onism</b></p>
+								<p>Aug&nbsp;11,2017</p>
+							</span>
+
+ 							<div class = "dropdown bc color"  style ="text-align:right;" >
+						        <b id = "abc">...</b>
+						        <div class = "dropdown-content">
+						            <div class="dropdown-border">
+						                <i class="fas fa-play"></i>
+						                <p class = "display">Play Now</p>
+						            </div>
+						            <div class="dropdown-border">
+						                <i class="fas fa-plus"></i>
+						                <p class = "display">Add To Queue</p>
+						            </div>
+						            <div class="dropdown-border">
+							            <i class="fas fa-heart"></i>
+						                <p class="display">Add To Favourites</p>
+						            </div>
+						            <div class="dropdown-border">
+						                <i class="fas fa-exclamation-circle"></i>
+						                <p class="display">Get Info</p>
+						            </div>
+						        </div>
+						        <p>4:44</p>
+						    </div>
+						</div>
+
+						<!-- 3. -->
+
+						<div class="container14">
+							<div class="container15 hover-play-release">
+								<img src = "image/21.jpg" class= "brightness">
+								<a href ="#footer">
+									<i class="fas fa-play size-color hover-play-icon"></i>
+								</a>
+								
+							</div>
+							<span class = "ab color left-margin">
+								<p><b>Onism</b></p>
+								<p>Aug&nbsp;11,2017</p>
+							</span>
+
+ 							<div class = "dropdown bc color"  style ="text-align:right;" >
+						        <b id = "abc">...</b>
+						        <div class = "dropdown-content">
+						            <div class="dropdown-border">
+						                <i class="fas fa-play"></i>
+						                <p class = "display">Play Now</p>
+						            </div>
+						            <div class="dropdown-border">
+						                <i class="fas fa-plus"></i>
+						                <p class = "display">Add To Queue</p>
+						            </div>
+						            <div class="dropdown-border">
+							            <i class="fas fa-heart"></i>
+						                <p class="display">Add To Favourites</p>
+						            </div>
+						            <div class="dropdown-border">
+						                <i class="fas fa-exclamation-circle"></i>
+						                <p class="display">Get Info</p>
+						            </div>
+						        </div>
+						        <p>4:44</p>
+						    </div>
+						</div>
+
+						<!-- 4. -->
+
+						<div class="container14">
+							<div class="container15 hover-play-release">
+								<img src = "image/21.jpg" class= "brightness">
+								<a href ="#footer">
+									<i class="fas fa-play size-color hover-play-icon"></i>
+								</a>
+								
+							</div>
+							<span class = "ab color left-margin">
+								<p><b>Onism</b></p>
+								<p>Aug&nbsp;11,2017</p>
+							</span>
+
+ 							<div class = "dropdown bc color"  style ="text-align:right;" >
+						        <b id = "abc">...</b>
+						        <div class = "dropdown-content">
+						            <div class="dropdown-border">
+						                <i class="fas fa-play"></i>
+						                <p class = "display">Play Now</p>
+						            </div>
+						            <div class="dropdown-border">
+						                <i class="fas fa-plus"></i>
+						                <p class = "display">Add To Queue</p>
+						            </div>
+						            <div class="dropdown-border">
+							            <i class="fas fa-heart"></i>
+						                <p class="display">Add To Favourites</p>
+						            </div>
+						            <div class="dropdown-border">
+						                <i class="fas fa-exclamation-circle"></i>
+						                <p class="display">Get Info</p>
+						            </div>
+						        </div>
+						        <p>4:44</p>
+						    </div>
+						</div>
+					</div>
+				</div>
+
+				<!-- end of latest release sec -->
+
+				<!-- 	popular Artists which contains 3 small containers		-->
+
+				<div class= "containerb">
+					<div>
+						<h3 class = "color">Popular Artists</h3>
+					</div>
+
+					<!-- 1. which also contains 5 small containers-->
+
+					<div class = "containeri" id = "container1">
+						<span class="hover-play-artist">
+							<img src = "image/25.jpg" class="brightness">
+							<p class ="size-align color">Ed Sheeran</p>
+							<span>
+								<a href ="file:///D:/Projects/Music-Player/Secondpage-of-Music-Player.html">
+									<i class="fas fa-play size-color hover-play-icon"></i>
+								</a>
+							</span>
+						</span>
+						<span class="hover-play-artist">
+							<img src = "image/26.jpg" class="brightness">
+							<p class ="size-align color">Katy Pery</p>
+							<span>
+								<a href ="file:///D:/Projects/Music-Player/Secondpage-of-Music-Player.html">
+									<i class="fas fa-play size-color hover-play-icon"></i>
+								</a>
+							</span>
+						</span>
+						<span class="hover-play-artist">
+							<img src = "image/30.jpg" class="brightness">
+							<p class ="size-align color">Jass Manak</p>
+							<span>
+								<a href ="file:///D:/Projects/Music-Player/Secondpage-of-Music-Player.html">
+									<i class="fas fa-play size-color hover-play-icon"></i>
+								</a>
+							</span>
+						</span>
+						<span class="hover-play-artist">
+							<img src = "image/28.jpg" class="brightness">
+							<p class ="size-align color">Jubin Nautiyal</p>
+							<span>
+								<a href ="file:///D:/Projects/Music-Player/Secondpage-of-Music-Player.html">
+									<i class="fas fa-play size-color hover-play-icon"></i>
+								</a>
+							</span>
+						</span>
+						<span class="hover-play-artist">
+							<img src = "image/19.jpg" class="brightness">
+							<p class ="size-align color">Hardy Sandhu</p>
+							<span>
+								<a href ="file:///D:/Projects/Music-Player/Secondpage-of-Music-Player.html">
+									<i class="fas fa-play size-color hover-play-icon"></i>
+								</a>
+							</span>
+						</span>
+					</div>
+
+					<!-- 2.	which also contains 5 small containers	-->
+
+					<div class = "containerc" id = "container3">
+						<img src = "image/2.jpg" class = "brightness">
+						<img src = "image/4.jpg" class = "brightness">
+						<img src = "image/1.jpg" class = "brightness">
+						<img src = "image/7.jpg" class = "brightness">
+						<img src = "image/8.jpg" class = "brightness">
+					</div>
+
+					<!-- 3. which also contains 3 containers	-->
+
+					<div class = "containera" id ="container4">
+						<span class ="on-img">
+							<img src = "image/10.jpg" class = "brightness">
+							<p class="on-text color">Party</p>
+						</span>
+						<span class ="on-img">
+							<img src = "image/11.jpg" class = "brightness">
+							<p class="on-text color">Road Trip</p>
+						</span>
+						<span class ="on-img">
+							<img src = "image/13.jpg" class = "brightness">
+							<p class="on-text color">Electronic</p>
+						</span>
+					</div>
+				</div>
+
+				<!-- 	end of popular artist sec   -->
+
+				<!-- 	latest english sec which contains 5 similar containers -->
+
+				<div class= "containerb">
+					<div>
+						<h3 class = "color">Latest English</h3>
+					</div>	
+
+					<div class = "containera" id = "container5">
+
+						<!--  1.  -->
+
+						<span>
+							<img src = "image/18.jpg" class ="brightness">
+							<p class = "color"><b>Onism</b></p>
+							<p class = "color">Aug&nbsp;11,2017</p>
+						</span>
+
+						<!-- 2. -->
+
+						<span>
+							<img src = "image/16.jpg" class ="brightness">
+							<p class = "color"><b>Onism</b></p>
+							<p class = "color">Aug&nbsp;11,2017</p>
+						</span>
+
+						<!-- 3. -->
+
+						<span>
+							<img src = "image/17.jpg" class ="brightness">
+							<p class = "color"><b>Onism</b></p>
+							<p class = "color">Aug&nbsp;11,2017</p>
+						</span>
+
+						<!-- 4. -->
+
+						<span>
+							<img src = "image/16.jpg" class ="brightness">
+							<p class = "color"><b>Onism</b></p>
+							<p class = "color">Aug&nbsp;11,2017</p>
+						</span>
+
+						<!-- 5. -->
+
+						<span>
+							<img src = "image/18.jpg" class ="brightness">
+							<p class = "color"><b>Onism</b></p>
+							<p class = "color">Aug&nbsp;11,2017</p>
+						</span>
+					</div>
+				</div>
+				<!-- 	end of latest english sec  -->
+
+				<!-- 	latest Hindi sec  -->
+
+				<div class= "containerb" id="hindi">
+					<div>
+						<h3 class = "color">Latest Hindi</h3>
+					</div>					
+					<div class = "containera" id = "container5">
+
+						<!-- 1. -->
+
+						<span>
+							<img src = "image/18.jpg" class ="brightness">
+							<p class = "color"><b>Onism</b></p>
+							<p class = "color">Aug&nbsp;11,2017</p>
+						</span>
+
+						<!-- 2. -->
+
+						<span>
+							<img src = "image/16.jpg" class ="brightness">
+							<p class = "color"><b>Onism</b></p>
+							<p class = "color">Aug&nbsp;11,2017</p>
+						</span>
+
+						<!-- 3. -->
+
+						<span>
+							<img src = "image/17.jpg" class ="brightness">
+							<p class = "color"><b>Onism</b></p>
+							<p class = "color">Aug&nbsp;11,2017</p>
+						</span>
+
+						<!-- 4. -->
+
+						<span>
+							<img src = "image/16.jpg" class ="brightness">
+							<p class = "color"><b>Onism</b></p>
+							<p class = "color">Aug&nbsp;11,2017</p>
+						</span>
+
+						<!-- 5. -->
+
+						<span>
+							<img src = "image/18.jpg" class ="brightness">
+							<p class = "color"><b>Onism</b></p>
+							<p class = "color">Aug&nbsp;11,2017</p>
+						</span>
+					</div>
+				</div>	
+
+				<!-- end of latest hindi sec -->
+			</main>>
+
+			<!-- end of main sec  -->
+			
+
+			<!--        aside  sec    -->
+			
+			<aside class= "inner-div2" id="aside">
+				<div class = "containerd">
+					<h1 style = "color:skyblue;">Queue</h1>
+					<div>
+						<h2 class= "display" style = "color:skyblue;">Queue</h2>
+						<div class = "dropdown display">
+        					<i class="fas fa-chevron-down drpbtn"  style = "color:skyblue;"></i>
+        					<div class ="drpdown-content color">
+            					<p class ="dropdown-border">Playlists</p>
+            					<p>Favourite Songs</p>
+        					</div>
+    					</div>
+					</div>
+				</div>
+
+				<!--        aside  sec  which contains 22 similar containers  -->
+				<div class = "containerb">
+					<!-- 1. -->
+					<div class ="containere">
+						<div class = "container7">
+							<p class = " margin color">01</p>
+							<img src = "image/18.jpg" id = "queueimg" class = "left-margin">
+							<div class = "left-margin color">
+								<p><b>Mirage</b></p>
+								<p>Else</p>
+							</div>
+						</div>
+						<i class="far fa-heart color-icon margin"></i>
+					</div>
+
+					<!-- 2. -->
+					<div class ="containere">
+						<div class = "container7">
+							<p class = "margin color">02</p>
+							<img src = "image/17.jpg" id = "queueimg" class = "left-margin">
+							<div class = "left-margin color">
+								<p><b>Worry Bout Us</b></p>
+								<p>Rosie Lowe</p>
+							</div>
+						</div>
+						<i class="far fa-heart color-icon margin"></i>
+					</div>
+
+					<!-- 3. -->
+					<div class ="containere">
+						<div class = "container7">
+							<p class = " margin color">03</p>
+							<img src = "image/16.jpg" id = "queueimg" class = "left-margin">
+							<div class = "left-margin color">
+								<p><b>New Skin</b></p>
+								<p>Flume</p>
+							</div>
+						</div>
+						<i class="far fa-heart color-icon margin"></i>
+					</div>
+
+					<!-- 4. -->
+					<div class ="containere">
+						<div class = "container7">
+							<p class = " margin color">04</p>
+							<img src = "image/21.jpg" id = "queueimg" class = "left-margin">
+							<div class = "left-margin color">
+								<p><b>Worry Bout Us</b></p>
+								<p>Else</p>
+							</div>
+						</div>
+						<i class="far fa-heart color-icon margin"></i>
+					</div>
+
+					<!-- 4. -->
+					<div class ="containere">
+						<div class = "container7">
+							<p class = "margin color">05</p>
+							<img src = "image/18.jpg" id = "queueimg" class = "left-margin">
+							<div class = "left-margin color">
+								<p><b>Mirage</b></p>
+								<p>Else</p>
+							</div>
+						</div>
+						<i class="far fa-heart color-icon margin"></i>
+					</div>
+
+					<!-- 5. -->
+					<div class ="containere">
+						<div class = "container7">
+							<p class = "margin color">06</p>
+							<img src = "image/17.jpg" id = "queueimg" class = "left-margin">
+							<div class = "left-margin color">
+								<p><b>Worry Bout Us</b></p>
+								<p>Rosie Lowe</p>
+							</div>
+						</div>
+						<i class="far fa-heart color-icon margin"></i>
+					</div>
+
+					<!-- 6. -->
+					<div class ="containere">
+						<div class = "container7">
+							<p class = " margin color">07</p>
+							<img src = "image/16.jpg" id = "queueimg" class = "left-margin">
+							<div class = "left-margin color">
+								<p><b>New Skin</b></p>
+								<p>Flume</p>
+							</div>
+						</div>
+						<i class="far fa-heart color-icon margin"></i>
+					</div>
+
+					<!-- 7. -->
+					<div class ="containere">
+						<div class = "container7">
+							<p class = " margin color">08</p>
+							<img src = "image/21.jpg" id = "queueimg" class = "left-margin">
+							<div class = "left-margin color">
+								<p><b>Worry Bout Us</b></p>
+								<p>Else</p>
+							</div>
+						</div>
+						<i class="far fa-heart color-icon margin"></i>
+					</div>
+
+					<!-- 8. -->
+					<div class ="containere">
+						<div class = "container7">
+							<p class = " margin color">09</p>
+							<img src = "image/18.jpg" id = "queueimg" class = "left-margin">
+							<div class = "left-margin color">
+								<p><b>Mirage</b></p>
+								<p>Else</p>
+							</div>
+						</div>
+						<i class="far fa-heart color-icon margin"></i>
+					</div>
+
+					<!-- 9. -->
+					<div class ="containere">
+						<div class = "container7">
+							<p class = " margin color">10</p>
+							<img src = "image/17.jpg" id = "queueimg" class = "left-margin">
+							<div class = "left-margin color">
+								<p><b>Worry Bout Us</b></p>
+								<p>Rosie Lowe</p>
+							</div>
+						</div>
+						<i class="far fa-heart color-icon margin"></i>
+					</div>
+
+					<!-- 10. -->
+					<div class ="containere">
+						<div class = "container7">
+							<p class = " margin color">11</p>
+							<img src = "image/16.jpg" id = "queueimg" class = "left-margin">
+							<div class = "left-margin color">
+								<p><b>New Skin</b></p>
+								<p>Flume</p>
+							</div>
+						</div>
+						<i class="far fa-heart color-icon margin"></i>
+					</div>
+
+					<!-- 11. -->
+					<div class ="containere">
+						<div class = "container7">
+							<p class = " margin color">12</p>
+							<img src = "image/21.jpg" id = "queueimg" class = "left-margin">
+							<div class = "left-margin color">
+								<p><b>Worry Bout Us</b></p>
+								<p>Else</p>
+							</div>
+						</div>
+						<i class="far fa-heart color-icon margin"></i>
+					</div>
+
+					<!-- 12. -->
+					<div class ="containere">
+						<div class = "container7">
+							<p class = " margin color">13</p>
+							<img src = "image/18.jpg" id = "queueimg" class = "left-margin">
+							<div class = "left-margin color">
+								<p><b>Mirage</b></p>
+								<p>Else</p>
+							</div>
+						</div>
+						<i class="far fa-heart color-icon margin"></i>
+					</div>
+
+					<!-- 13. -->
+					<div class ="containere">
+						<div class = "container7">
+							<p class = " margin color">14</p>
+							<img src = "image/17.jpg" id = "queueimg" class = "left-margin">
+							<div class = "left-margin color">
+								<p><b>Worry Bout Us</b></p>
+								<p>Rosie Lowe</p>
+							</div>
+						</div>
+						<i class="far fa-heart color-icon margin"></i>
+					</div>
+
+					<!-- 14. -->
+					<div class ="containere">
+						<div class = "container7">
+							<p class = " margin color">15</p>
+							<img src = "image/16.jpg" id = "queueimg" class = "left-margin">
+							<div class = "left-margin color">
+								<p><b>New Skin</b></p>
+								<p>Flume</p>
+							</div>
+						</div>
+						<i class="far fa-heart color-icon margin"></i>
+					</div>
+
+					<!-- 15. -->
+					<div class ="containere">
+						<div class = "container7">
+							<p class = " margin color">16</p>
+							<img src = "image/21.jpg" id = "queueimg" class = "left-margin">
+							<div class = "left-margin color">
+								<p><b>Worry Bout Us</b></p>
+								<p>Else</p>
+							</div>
+						</div>
+						<i class="far fa-heart color-icon margin"></i>
+					</div>
+
+					<!-- 16. -->
+					<div class ="containere">
+						<div class = "container7">
+							<p class = " margin color">17</p>
+							<img src = "image/18.jpg" id = "queueimg" class = "left-margin">
+							<div class = "left-margin color">
+								<p><b>Mirage</b></p>
+								<p>Else</p>
+							</div>
+						</div>
+						<i class="far fa-heart color-icon margin"></i>
+					</div>
+
+					<!-- 17. -->
+					<div class ="containere">
+						<div class = "container7">
+							<p class = " margin color">18</p>
+							<img src = "image/17.jpg" id = "queueimg" class = "left-margin">
+							<div class = "left-margin color">
+								<p><b>Worry Bout Us</b></p>
+								<p>Rosie Lowe</p>
+							</div>
+						</div>
+						<i class="far fa-heart color-icon margin"></i>
+					</div>
+
+					<!-- 18. -->
+					<div class ="containere">
+						<div class = "container7">
+							<p class = " margin color">19</p>
+							<img src = "image/16.jpg" id = "queueimg" class = "left-margin">
+							<div class = "left-margin color">
+								<p><b>New Skin</b></p>
+								<p>Flume</p>
+							</div>
+						</div>
+						<i class="far fa-heart color-icon margin"></i>
+					</div>
+
+					<!-- 19. -->
+					<div class ="containere">
+						<div class = "container7">
+							<p class = " margin color">20</p>
+							<img src = "image/21.jpg" id = "queueimg" class = "left-margin">
+							<div class = "left-margin color">
+								<p><b>Worry Bout Us</b></p>
+								<p>Else</p>
+							</div>
+						</div>
+						<i class="far fa-heart color-icon margin"></i>
+					</div>
+					
+				</div>
+			</aside>
+			<!-- end of aside sec -->
+
+		</div>
+
+		</div>
+		<!-- end of outer div sec -->
+
+	</div>
+
+	<!-- 		music-box has 3 small containers	 -->
+
+
+		<div id="music-box">
+
+			<!-- 1. -->
+			<div class="music-container1">
+				<img src="image/16.jpg">
+				<span style="margin: auto 0px">
+					<p style="color:black;">Imagine by john</p>
+					<p style="color:black;">John Lennon</p>
+				</span>
+				<i class="far fa-heart" style="margin: auto 0px;color:black;"></i>
+				<i class="fas fa-ban " style="margin: auto 0px;color:black;"></i>
+			</div>
+
+			<!-- 2. -->
+			<div class="music-container2">
+				<div id="small-container1">
+					<i class="fas fa-random"></i>
+					<i class="fas fa-step-backward"></i>
+					<i class="far fa-pause-circle"></i>
+					<i class="fas fa-step-forward"></i>
+					<i class="fas fa-sync"></i>
+				</div>
+				<div id="small-container2">
+					<p>1:44</p>
+					<div id="border1">
+					</div>
+					<div id="border2">
+					</div>
+					<div id="circle1">
+					</div>
+					<p>4:44</p>
+				</div>
+			</div>
+
+			<!-- 3. -->
+			<div class="music-container3">
+				<i class="fas fa-indent"></i>
+				<i class="fas fa-desktop"></i>
+				<i class="fas fa-volume-up"></i>
+				<div id="border3">
+				</div>
+				<div id="border4">
+				</div>
+				<div id="circle2">
+				</div>
+				<i class="fas fa-expand"></i>
+			</div>
+		</div>
+
+		<!-- end of music-box sec -->
+</body>
+</html>
+
+
+
